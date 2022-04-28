@@ -10,8 +10,8 @@ const store = createStore(rootReducer)
 const App = () => {
   return (
   <Provider store={store}>
-    {/* <AuthApp/> */}
-    <TodoApp/>
+    <AuthApp/>
+    {/* <TodoApp/> */}
   </Provider>
   );
 };

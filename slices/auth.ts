@@ -3,7 +3,7 @@ import {createSlice, PayloadAction} from '@reduxjs/toolkit'
 export interface User{
     id:Number;
     username:String;
-    display:string
+    displayName:string
 }
 
 interface AuthState{
